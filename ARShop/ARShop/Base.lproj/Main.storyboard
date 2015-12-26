@@ -135,6 +135,9 @@
                                 <state key="normal" title="SIGN IN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="48I-5q-g1Z"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1V-IK-joJ">
                                 <rect key="frame" x="0.0" y="379" width="247.5" height="1"/>
@@ -171,6 +174,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fgP-dD-1gq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -212,30 +218,91 @@
                     </view>
                     <navigationItem key="navigationItem" id="cdu-A8-MV6"/>
                     <connections>
-                        <segue destination="qrd-MO-HuY" kind="show" identifier="LoginSegue" id="mmT-sx-QO4"/>
+                        <outlet property="passwordLabel" destination="CTp-0r-nVs" id="n1X-LB-mAS"/>
+                        <outlet property="usernameLabel" destination="CAV-Ym-oth" id="wKz-EF-LN2"/>
+                        <segue destination="bes-Av-2hc" kind="show" identifier="LoginSegue" id="zyf-8U-Rbe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1117" y="389"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="N44-64-Fsw">
+        <!--Camera-->
+        <scene sceneID="tDr-JP-qOz">
             <objects>
-                <viewController id="qrd-MO-HuY" sceneMemberID="viewController">
+                <viewController id="djV-nO-tzD" customClass="CameraViewController" customModule="ARShop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JSL-hh-wpe"/>
-                        <viewControllerLayoutGuide type="bottom" id="hPV-pJ-ok4"/>
+                        <viewControllerLayoutGuide type="top" id="JgW-PI-FlZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="L9A-RI-Cv6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6he-Or-RTm">
+                    <view key="view" contentMode="scaleToFill" id="U9y-hl-Mqd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera-tab" id="fIW-nx-Rd9"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uU3-6A-ZCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TQ1-bh-ito" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1895" y="389"/>
+            <point key="canvasLocation" x="2698" y="398"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="ce8-gW-Mkf">
+            <objects>
+                <viewController id="5GW-Fd-5Gt" customClass="DiscoverViewController" customModule="ARShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tsW-4S-uE2"/>
+                        <viewControllerLayoutGuide type="bottom" id="SIk-ql-MBi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RgG-ea-GFg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="discover-tab" id="4dT-3p-XPt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YqX-KU-bqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2706" y="1165"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="83C-Sj-5bF">
+            <objects>
+                <viewController id="lzC-7r-MMK" customClass="ProfileViewController" customModule="ARShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4HI-fQ-luG"/>
+                        <viewControllerLayoutGuide type="bottom" id="nLl-aa-eaE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SQe-1v-CrS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile-tab" id="7uJ-BW-1BD"/>
+                    <navigationItem key="navigationItem" title="Profile" id="bQT-gi-ZPn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jss-kY-hrD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2698" y="-255"/>
+        </scene>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="g2s-CI-nhR">
+            <objects>
+                <tabBarController modalTransitionStyle="crossDissolve" id="bes-Av-2hc" customClass="CustomTabBarViewController" customModule="ARShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="uP6-7U-LDF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lzC-7r-MMK" kind="relationship" relationship="viewControllers" id="sHc-vd-Qhy"/>
+                        <segue destination="djV-nO-tzD" kind="relationship" relationship="viewControllers" id="PH6-K5-gfb"/>
+                        <segue destination="5GW-Fd-5Gt" kind="relationship" relationship="viewControllers" id="OGW-bw-h0b"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fld-s6-01g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1856" y="389"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ABP-ZJ-FIt">
@@ -247,6 +314,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -259,8 +329,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera-tab" width="25" height="25"/>
+        <image name="discover-tab" width="25" height="25"/>
         <image name="login-bg.png" width="1536" height="2048"/>
         <image name="password.png" width="180" height="207"/>
+        <image name="profile-tab" width="25" height="25"/>
         <image name="user_icon.png" width="180" height="170"/>
     </resources>
 </document>

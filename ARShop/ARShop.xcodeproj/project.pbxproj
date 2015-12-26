@@ -13,10 +13,13 @@
 		2BDA9C891C2E701900C047F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C881C2E701900C047F9 /* Assets.xcassets */; };
 		2BDA9C8C1C2E701900C047F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C8A1C2E701900C047F9 /* LaunchScreen.storyboard */; };
 		2BDA9C971C2E738C00C047F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C961C2E738C00C047F9 /* LoginViewController.swift */; };
-		2BDA9C991C2E741500C047F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C981C2E741500C047F9 /* HomeViewController.swift */; };
 		2BDA9C9C1C2E78F600C047F9 /* login-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C9B1C2E78F600C047F9 /* login-bg.png */; };
 		2BDA9C9F1C2E828100C047F9 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C9D1C2E828100C047F9 /* password.png */; };
 		2BDA9CA01C2E828100C047F9 /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C9E1C2E828100C047F9 /* user_icon.png */; };
+		2BDA9CA41C2E967400C047F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA31C2E967400C047F9 /* ProfileViewController.swift */; };
+		2BDA9CA61C2E968200C047F9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA51C2E968200C047F9 /* CameraViewController.swift */; };
+		2BDA9CA81C2E968F00C047F9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */; };
+		2BDA9CAA1C2E979000C047F9 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +31,13 @@
 		2BDA9C8B1C2E701900C047F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDA9C8D1C2E701900C047F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDA9C961C2E738C00C047F9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		2BDA9C981C2E741500C047F9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2BDA9C9B1C2E78F600C047F9 /* login-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-bg.png"; sourceTree = "<group>"; };
 		2BDA9C9D1C2E828100C047F9 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
 		2BDA9C9E1C2E828100C047F9 /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_icon.png; sourceTree = "<group>"; };
+		2BDA9CA31C2E967400C047F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2BDA9CA51C2E968200C047F9 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				2BDA9C961C2E738C00C047F9 /* LoginViewController.swift */,
-				2BDA9C981C2E741500C047F9 /* HomeViewController.swift */,
+				2BDA9CA31C2E967400C047F9 /* ProfileViewController.swift */,
+				2BDA9CA51C2E968200C047F9 /* CameraViewController.swift */,
+				2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */,
+				2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -188,8 +197,11 @@
 			files = (
 				2BDA9C971C2E738C00C047F9 /* LoginViewController.swift in Sources */,
 				2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */,
+				2BDA9CAA1C2E979000C047F9 /* CustomTabBarViewController.swift in Sources */,
+				2BDA9CA81C2E968F00C047F9 /* DiscoverViewController.swift in Sources */,
+				2BDA9CA41C2E967400C047F9 /* ProfileViewController.swift in Sources */,
 				2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */,
-				2BDA9C991C2E741500C047F9 /* HomeViewController.swift in Sources */,
+				2BDA9CA61C2E968200C047F9 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
