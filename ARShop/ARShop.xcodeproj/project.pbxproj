@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C7E1C2E701900C047F9 /* AppDelegate.swift */; };
+		2BDA9C841C2E701900C047F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C821C2E701900C047F9 /* Main.storyboard */; };
+		2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C851C2E701900C047F9 /* ARShop.xcdatamodeld */; };
+		2BDA9C891C2E701900C047F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C881C2E701900C047F9 /* Assets.xcassets */; };
+		2BDA9C8C1C2E701900C047F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C8A1C2E701900C047F9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BDA9C7B1C2E701900C047F9 /* ARShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDA9C7E1C2E701900C047F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BDA9C831C2E701900C047F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BDA9C861C2E701900C047F9 /* ARShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARShop.xcdatamodel; sourceTree = "<group>"; };
+		2BDA9C881C2E701900C047F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDA9C8B1C2E701900C047F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BDA9C8D1C2E701900C047F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BDA9C781C2E701900C047F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BDA9C721C2E701900C047F9 = {
+			isa = PBXGroup;
+			children = (
+				2BDA9C7D1C2E701900C047F9 /* ARShop */,
+				2BDA9C7C1C2E701900C047F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BDA9C7C1C2E701900C047F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDA9C7B1C2E701900C047F9 /* ARShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BDA9C7D1C2E701900C047F9 /* ARShop */ = {
+			isa = PBXGroup;
+			children = (
+				2BDA9C951C2E72EB00C047F9 /* Models */,
+				2BDA9C941C2E72E500C047F9 /* Views */,
+				2BDA9C931C2E72E000C047F9 /* ViewControllers */,
+				2BDA9C7E1C2E701900C047F9 /* AppDelegate.swift */,
+				2BDA9C821C2E701900C047F9 /* Main.storyboard */,
+				2BDA9C881C2E701900C047F9 /* Assets.xcassets */,
+				2BDA9C8A1C2E701900C047F9 /* LaunchScreen.storyboard */,
+				2BDA9C8D1C2E701900C047F9 /* Info.plist */,
+				2BDA9C851C2E701900C047F9 /* ARShop.xcdatamodeld */,
+			);
+			path = ARShop;
+			sourceTree = "<group>";
+		};
+		2BDA9C931C2E72E000C047F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BDA9C941C2E72E500C047F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BDA9C951C2E72EB00C047F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BDA9C7A1C2E701900C047F9 /* ARShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BDA9C901C2E701900C047F9 /* Build configuration list for PBXNativeTarget "ARShop" */;
+			buildPhases = (
+				2BDA9C771C2E701900C047F9 /* Sources */,
+				2BDA9C781C2E701900C047F9 /* Frameworks */,
+				2BDA9C791C2E701900C047F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARShop;
+			productName = ARShop;
+			productReference = 2BDA9C7B1C2E701900C047F9 /* ARShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BDA9C731C2E701900C047F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sg.edu.nus;
+				TargetAttributes = {
+					2BDA9C7A1C2E701900C047F9 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3UVT65P992;
+					};
+				};
+			};
+			buildConfigurationList = 2BDA9C761C2E701900C047F9 /* Build configuration list for PBXProject "ARShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BDA9C721C2E701900C047F9;
+			productRefGroup = 2BDA9C7C1C2E701900C047F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BDA9C7A1C2E701900C047F9 /* ARShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BDA9C791C2E701900C047F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDA9C8C1C2E701900C047F9 /* LaunchScreen.storyboard in Resources */,
+				2BDA9C891C2E701900C047F9 /* Assets.xcassets in Resources */,
+				2BDA9C841C2E701900C047F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BDA9C771C2E701900C047F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */,
+				2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BDA9C821C2E701900C047F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDA9C831C2E701900C047F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BDA9C8A1C2E701900C047F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BDA9C8B1C2E701900C047F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BDA9C8E1C2E701900C047F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BDA9C8F1C2E701900C047F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BDA9C911C2E701900C047F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ARShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.ARShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2BDA9C921C2E701900C047F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ARShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.ARShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BDA9C761C2E701900C047F9 /* Build configuration list for PBXProject "ARShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDA9C8E1C2E701900C047F9 /* Debug */,
+				2BDA9C8F1C2E701900C047F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BDA9C901C2E701900C047F9 /* Build configuration list for PBXNativeTarget "ARShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BDA9C911C2E701900C047F9 /* Debug */,
+				2BDA9C921C2E701900C047F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BDA9C851C2E701900C047F9 /* ARShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BDA9C861C2E701900C047F9 /* ARShop.xcdatamodel */,
+			);
+			currentVersion = 2BDA9C861C2E701900C047F9 /* ARShop.xcdatamodel */;
+			path = ARShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BDA9C731C2E701900C047F9 /* Project object */;
+}
