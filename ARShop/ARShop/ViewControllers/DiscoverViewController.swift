@@ -19,6 +19,8 @@ class DiscoverViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated);
         self.navigationController?.setNavigationBarHidden(false, animated: false);
+        self.parentViewController?.navigationItem.title = "Discover"
+        self.parentViewController?.navigationItem.rightBarButtonItem = nil;
     }
     
     override func didReceiveMemoryWarning() {

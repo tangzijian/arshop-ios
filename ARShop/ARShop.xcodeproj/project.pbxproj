@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC585951C327329006A9A26 /* UIColor+ARShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC585941C327329006A9A26 /* UIColor+ARShop.swift */; };
+		2BC585971C327A36006A9A26 /* PastPhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC585961C327A36006A9A26 /* PastPhotoViewCell.swift */; };
+		2BC5859B1C327D27006A9A26 /* mock-user-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5859A1C327D27006A9A26 /* mock-user-icon.png */; };
+		2BC5859E1C32843D006A9A26 /* mock-past-photo0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5859D1C32843D006A9A26 /* mock-past-photo0.jpg */; };
+		2BC585A01C328447006A9A26 /* mock-past-photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC5859F1C328447006A9A26 /* mock-past-photo1.jpg */; };
+		2BC585A21C328452006A9A26 /* mock-past-photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC585A11C328452006A9A26 /* mock-past-photo2.jpg */; };
+		2BC585A41C32845C006A9A26 /* mock-past-photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC585A31C32845C006A9A26 /* mock-past-photo3.jpg */; };
+		2BC585A61C328465006A9A26 /* mock-past-photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC585A51C328465006A9A26 /* mock-past-photo4.jpg */; };
+		2BC585A81C32847A006A9A26 /* mock-past-photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BC585A71C32847A006A9A26 /* mock-past-photo5.jpg */; };
 		2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C7E1C2E701900C047F9 /* AppDelegate.swift */; };
 		2BDA9C841C2E701900C047F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA9C821C2E701900C047F9 /* Main.storyboard */; };
 		2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9C851C2E701900C047F9 /* ARShop.xcdatamodeld */; };
@@ -23,6 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BC585941C327329006A9A26 /* UIColor+ARShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ARShop.swift"; sourceTree = "<group>"; };
+		2BC585961C327A36006A9A26 /* PastPhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastPhotoViewCell.swift; sourceTree = "<group>"; };
+		2BC5859A1C327D27006A9A26 /* mock-user-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mock-user-icon.png"; sourceTree = "<group>"; };
+		2BC5859D1C32843D006A9A26 /* mock-past-photo0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo0.jpg"; sourceTree = "<group>"; };
+		2BC5859F1C328447006A9A26 /* mock-past-photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo1.jpg"; sourceTree = "<group>"; };
+		2BC585A11C328452006A9A26 /* mock-past-photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo2.jpg"; sourceTree = "<group>"; };
+		2BC585A31C32845C006A9A26 /* mock-past-photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo3.jpg"; sourceTree = "<group>"; };
+		2BC585A51C328465006A9A26 /* mock-past-photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo4.jpg"; sourceTree = "<group>"; };
+		2BC585A71C32847A006A9A26 /* mock-past-photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mock-past-photo5.jpg"; sourceTree = "<group>"; };
 		2BDA9C7B1C2E701900C047F9 /* ARShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA9C7E1C2E701900C047F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDA9C831C2E701900C047F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +69,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BC585931C327314006A9A26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BC585941C327329006A9A26 /* UIColor+ARShop.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BC5859C1C3283FA006A9A26 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2BC5859A1C327D27006A9A26 /* mock-user-icon.png */,
+				2BC5859D1C32843D006A9A26 /* mock-past-photo0.jpg */,
+				2BC5859F1C328447006A9A26 /* mock-past-photo1.jpg */,
+				2BC585A11C328452006A9A26 /* mock-past-photo2.jpg */,
+				2BC585A31C32845C006A9A26 /* mock-past-photo3.jpg */,
+				2BC585A51C328465006A9A26 /* mock-past-photo4.jpg */,
+				2BC585A71C32847A006A9A26 /* mock-past-photo5.jpg */,
+			);
+			name = mocks;
+			sourceTree = "<group>";
+		};
 		2BDA9C721C2E701900C047F9 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +110,7 @@
 		2BDA9C7D1C2E701900C047F9 /* ARShop */ = {
 			isa = PBXGroup;
 			children = (
+				2BC585931C327314006A9A26 /* Extensions */,
 				2BDA9C9A1C2E78F600C047F9 /* ImageAssets */,
 				2BDA9C951C2E72EB00C047F9 /* Models */,
 				2BDA9C941C2E72E500C047F9 /* Views */,
@@ -99,6 +140,7 @@
 		2BDA9C941C2E72E500C047F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2BC585961C327A36006A9A26 /* PastPhotoViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +155,7 @@
 		2BDA9C9A1C2E78F600C047F9 /* ImageAssets */ = {
 			isa = PBXGroup;
 			children = (
+				2BC5859C1C3283FA006A9A26 /* mocks */,
 				2BDA9C9D1C2E828100C047F9 /* password.png */,
 				2BDA9C9E1C2E828100C047F9 /* user_icon.png */,
 				2BDA9C9B1C2E78F600C047F9 /* login-bg.png */,
@@ -179,12 +222,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC5859E1C32843D006A9A26 /* mock-past-photo0.jpg in Resources */,
 				2BDA9C8C1C2E701900C047F9 /* LaunchScreen.storyboard in Resources */,
+				2BC585A21C328452006A9A26 /* mock-past-photo2.jpg in Resources */,
 				2BDA9C891C2E701900C047F9 /* Assets.xcassets in Resources */,
 				2BDA9C9F1C2E828100C047F9 /* password.png in Resources */,
 				2BDA9CA01C2E828100C047F9 /* user_icon.png in Resources */,
+				2BC585A61C328465006A9A26 /* mock-past-photo4.jpg in Resources */,
 				2BDA9C9C1C2E78F600C047F9 /* login-bg.png in Resources */,
+				2BC585A01C328447006A9A26 /* mock-past-photo1.jpg in Resources */,
 				2BDA9C841C2E701900C047F9 /* Main.storyboard in Resources */,
+				2BC585A81C32847A006A9A26 /* mock-past-photo5.jpg in Resources */,
+				2BC585A41C32845C006A9A26 /* mock-past-photo3.jpg in Resources */,
+				2BC5859B1C327D27006A9A26 /* mock-user-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,9 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDA9C971C2E738C00C047F9 /* LoginViewController.swift in Sources */,
+				2BC585971C327A36006A9A26 /* PastPhotoViewCell.swift in Sources */,
 				2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */,
 				2BDA9CAA1C2E979000C047F9 /* CustomTabBarViewController.swift in Sources */,
 				2BDA9CA81C2E968F00C047F9 /* DiscoverViewController.swift in Sources */,
+				2BC585951C327329006A9A26 /* UIColor+ARShop.swift in Sources */,
 				2BDA9CA41C2E967400C047F9 /* ProfileViewController.swift in Sources */,
 				2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */,
 				2BDA9CA61C2E968200C047F9 /* CameraViewController.swift in Sources */,
@@ -359,6 +411,7 @@
 				2BDA9C921C2E701900C047F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
