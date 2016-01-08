@@ -21,7 +21,16 @@ class LoginViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.setNavigationBarHidden(true, animated: false);
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.navigationController?.navigationBarHidden = true
+        }
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.navigationController?.navigationBarHidden = false
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,7 +43,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func signupButtonHandler(sender: UIButton) {
-        
+        self.performSegueWithIdentifier("SignUpSegue", sender: self)
     }
 
     // MARK: - Navigation

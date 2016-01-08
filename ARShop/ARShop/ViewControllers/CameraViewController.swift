@@ -18,7 +18,7 @@ class CameraViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated);
-        self.navigationController?.setNavigationBarHidden(true, animated: false);
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
     override func didReceiveMemoryWarning() {

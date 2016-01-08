@@ -9,10 +9,11 @@
 import UIKit
 
 class CustomTabBarViewController: UITabBarController {
+    var selectedImage: UIImage?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -38,4 +39,45 @@ class CustomTabBarViewController: UITabBarController {
     }
     */
 
+}
+
+extension CustomTabBarViewController: UITabBarControllerDelegate {
+    override func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
+        if item.tag == 2 {
+            let sheet = UIActionSheet(title: nil, delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Select from library", "Camera")
+            sheet.showInView(self.view)
+        }
+    }
+    
+    func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
+        return !(viewController is CameraViewController)
+    }
+}
+
+extension CustomTabBarViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+}
+
+extension CustomTabBarViewController: UIActionSheetDelegate {
+    func actionSheet(actionSheet: UIActionSheet, clickedButtonAtIndex buttonIndex: Int) {
+        if buttonIndex == 1 {
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.sourceType = .PhotoLibrary
+            picker.allowsEditing = false
+            self.presentViewController(picker, animated: true, completion: nil)
+        } else if buttonIndex == 2 {
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.sourceType = .Camera
+            picker.allowsEditing = false
+            self.presentViewController(picker, animated: true, completion: nil)
+        }
+    }
 }
