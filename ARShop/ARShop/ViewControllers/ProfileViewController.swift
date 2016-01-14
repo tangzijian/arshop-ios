@@ -14,7 +14,11 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     @IBOutlet weak private var usernameLabel: UILabel!
     @IBOutlet weak private var collectionView: UICollectionView!
     
+    @IBOutlet weak var tableView: UITableView!
     private var pastPhotos: [UIImage] = [UIImage]()
+    private var shoppingLists = [ShoppingList]()
+    
+    private var shouldPresent: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +43,11 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
                 pastPhotos.append(img)
             }
         }
+        
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.backgroundColor = UIColor.clearColor()
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -48,6 +57,18 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
         let logoutBtn = UIBarButtonItem(title: "Logout", style:.Plain, target: self, action:"logoutButtonHanlder:")
         logoutBtn.tintColor = UIColor.whiteColor()
         self.parentViewController?.navigationItem.rightBarButtonItem = logoutBtn
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        if shouldPresent {
+            shouldPresent = false
+            let vc = AddShoppingListViewController()
+            let nav = UINavigationController(rootViewController: vc)
+            self.presentViewController(nav, animated: true, completion: nil)
+        }
+        shoppingLists = DataClient.sharedInstance.getShoppingLists()
+        tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -87,4 +108,18 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     
     // MARK: - UICollectionViewDelegate
 
+}
+
+extension ProfileViewController: UITableViewDataSource, UITableViewDelegate {
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return shoppingLists.count
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("ShoppingListCell") as! ShoppingListCell
+        cell.list = shoppingLists[indexPath.row]
+        return cell
+    }
 }

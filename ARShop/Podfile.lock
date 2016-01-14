@@ -5,6 +5,7 @@ PODS:
   - SDWebImage (3.7.3):
     - SDWebImage/Core (= 3.7.3)
   - SDWebImage/Core (3.7.3)
+  - SnapKit (0.18.0)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
@@ -12,6 +13,7 @@ DEPENDENCIES:
   - CRToast
   - MBProgressHUD
   - SDWebImage
+  - SnapKit
   - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -19,6 +21,7 @@ SPEC CHECKSUMS:
   CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0

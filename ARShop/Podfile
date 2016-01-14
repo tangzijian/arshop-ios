@@ -9,5 +9,6 @@ target 'ARShop' do
  pod 'CRToast'
  pod 'MBProgressHUD'
  pod 'SDWebImage'
+ pod 'SnapKit'
 end
 

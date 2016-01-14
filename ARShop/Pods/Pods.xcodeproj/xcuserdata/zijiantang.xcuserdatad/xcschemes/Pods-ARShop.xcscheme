@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '66007C2492237C706191AA37'
+               BlueprintIdentifier = 'DC6EA64E2E032E414B87FC39'
                BlueprintName = 'Pods-ARShop'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ARShop.framework'>

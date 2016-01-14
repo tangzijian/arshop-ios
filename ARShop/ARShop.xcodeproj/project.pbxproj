@@ -36,6 +36,12 @@
 		2BDA9CA61C2E968200C047F9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA51C2E968200C047F9 /* CameraViewController.swift */; };
 		2BDA9CA81C2E968F00C047F9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */; };
 		2BDA9CAA1C2E979000C047F9 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */; };
+		2BE0ACFF1C47EB8300199F56 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0ACFE1C47EB8300199F56 /* ShoppingList.swift */; };
+		2BE0AD011C47EB9A00199F56 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AD001C47EB9A00199F56 /* ShoppingItem.swift */; };
+		2BE0AD031C47EF8100199F56 /* ShoppingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AD021C47EF8100199F56 /* ShoppingListCell.swift */; };
+		2BE0AD051C47F20B00199F56 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AD041C47F20B00199F56 /* DateUtil.swift */; };
+		2BE0AD071C47F62E00199F56 /* AddShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AD061C47F62E00199F56 /* AddShoppingListViewController.swift */; };
+		2BE0AD091C47F73500199F56 /* ShoppingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AD081C47F73500199F56 /* ShoppingItemCell.swift */; };
 		2BF1716F1C3F65940000FD18 /* HUDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1716E1C3F65940000FD18 /* HUDUtil.swift */; };
 		E23386B3EFB111DE310FA0B6 /* Pods_ARShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0483887497587BCF2856D539 /* Pods_ARShop.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +79,12 @@
 		2BDA9CA51C2E968200C047F9 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		2BE0ACFE1C47EB8300199F56 /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
+		2BE0AD001C47EB9A00199F56 /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		2BE0AD021C47EF8100199F56 /* ShoppingListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListCell.swift; sourceTree = "<group>"; };
+		2BE0AD041C47F20B00199F56 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		2BE0AD061C47F62E00199F56 /* AddShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddShoppingListViewController.swift; sourceTree = "<group>"; };
+		2BE0AD081C47F73500199F56 /* ShoppingItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItemCell.swift; sourceTree = "<group>"; };
 		2BF1716E1C3F65940000FD18 /* HUDUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDUtil.swift; path = Utilities/HUDUtil.swift; sourceTree = "<group>"; };
 		79A86B0151F533EA16F62D22 /* Pods-ARShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARShop/Pods-ARShop.release.xcconfig"; sourceTree = "<group>"; };
 		DE639F1E0B97B467D6EDD17F /* Pods-ARShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARShop/Pods-ARShop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +146,7 @@
 				2BC5E2F81C391F8300F448AD /* Constants.swift */,
 				2BC5E2FA1C39234B00F448AD /* MessageHelper.swift */,
 				2BF1716E1C3F65940000FD18 /* HUDUtil.swift */,
+				2BE0AD041C47F20B00199F56 /* DateUtil.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -186,6 +199,7 @@
 				2BDA9CA71C2E968F00C047F9 /* DiscoverViewController.swift */,
 				2BDA9CA91C2E979000C047F9 /* CustomTabBarViewController.swift */,
 				2BC5E2ED1C39180700F448AD /* SignUpViewController.swift */,
+				2BE0AD061C47F62E00199F56 /* AddShoppingListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -196,6 +210,8 @@
 				2BC585961C327A36006A9A26 /* PastPhotoViewCell.swift */,
 				2BC585A91C328AD5006A9A26 /* ShopTableViewCell.swift */,
 				2BC585AB1C328AF1006A9A26 /* PhotoTableViewCell.swift */,
+				2BE0AD021C47EF8100199F56 /* ShoppingListCell.swift */,
+				2BE0AD081C47F73500199F56 /* ShoppingItemCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +219,8 @@
 		2BDA9C951C2E72EB00C047F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2BE0ACFE1C47EB8300199F56 /* ShoppingList.swift */,
+				2BE0AD001C47EB9A00199F56 /* ShoppingItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -369,18 +387,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDA9C971C2E738C00C047F9 /* LoginViewController.swift in Sources */,
+				2BE0ACFF1C47EB8300199F56 /* ShoppingList.swift in Sources */,
 				2BF1716F1C3F65940000FD18 /* HUDUtil.swift in Sources */,
 				2BC585971C327A36006A9A26 /* PastPhotoViewCell.swift in Sources */,
 				2BDA9C7F1C2E701900C047F9 /* AppDelegate.swift in Sources */,
 				2BC5E2FB1C39234B00F448AD /* MessageHelper.swift in Sources */,
+				2BE0AD071C47F62E00199F56 /* AddShoppingListViewController.swift in Sources */,
+				2BE0AD051C47F20B00199F56 /* DateUtil.swift in Sources */,
 				2BDA9CAA1C2E979000C047F9 /* CustomTabBarViewController.swift in Sources */,
 				2BDA9CA81C2E968F00C047F9 /* DiscoverViewController.swift in Sources */,
 				2BC5E2F91C391F8300F448AD /* Constants.swift in Sources */,
+				2BE0AD031C47EF8100199F56 /* ShoppingListCell.swift in Sources */,
 				2BC585AA1C328AD5006A9A26 /* ShopTableViewCell.swift in Sources */,
 				2BC5E2EE1C39180700F448AD /* SignUpViewController.swift in Sources */,
+				2BE0AD011C47EB9A00199F56 /* ShoppingItem.swift in Sources */,
 				2BC585951C327329006A9A26 /* UIColor+ARShop.swift in Sources */,
 				2BDA9CA41C2E967400C047F9 /* ProfileViewController.swift in Sources */,
 				2BDA9C871C2E701900C047F9 /* ARShop.xcdatamodeld in Sources */,
+				2BE0AD091C47F73500199F56 /* ShoppingItemCell.swift in Sources */,
 				2BC5E2F41C391D7200F448AD /* HTTPClient.swift in Sources */,
 				2BC5E2F11C391D4D00F448AD /* DataClient.swift in Sources */,
 				2BDA9CA61C2E968200C047F9 /* CameraViewController.swift in Sources */,

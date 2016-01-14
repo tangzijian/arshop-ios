@@ -88,6 +88,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ARShop/CRToast.framework"
   install_framework "Pods-ARShop/MBProgressHUD.framework"
   install_framework "Pods-ARShop/SDWebImage.framework"
+  install_framework "Pods-ARShop/SnapKit.framework"
   install_framework "Pods-ARShop/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -95,5 +96,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ARShop/CRToast.framework"
   install_framework "Pods-ARShop/MBProgressHUD.framework"
   install_framework "Pods-ARShop/SDWebImage.framework"
+  install_framework "Pods-ARShop/SnapKit.framework"
   install_framework "Pods-ARShop/SwiftyJSON.framework"
 fi
